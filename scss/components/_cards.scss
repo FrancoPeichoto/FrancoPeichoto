@@ -1,0 +1,175 @@
+// CARDS DESTACADOS
+
+.producto {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1;
+    margin-top: 28px;
+    margin-left: 146px;
+    margin-right: 146px;
+}
+
+.fondo-producto-1 {
+    background-color: #2A2E2E;
+    max-width: 272px;
+    height: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.fondo-producto-2 {
+    background-color: #2A2E2E;
+    max-width: 272px;
+    height: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.fondo-producto-3 {
+    background-color: #2A2E2E;
+    max-width: 272px;
+    height: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.fondo-producto-4 {
+    background-color: #2A2E2E;
+    max-width: 272px;
+    height: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.fondo-producto-5 {
+    background-color: #2A2E2E;
+    max-width: 272px;
+    height: 380px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.imagen-producto {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-producto img {
+    margin-top: 21px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 35px 25px 25px 40px;
+}
+
+.texto-producto {
+    text-align: center;
+}
+
+.texto-producto h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.texto-producto h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.texto-producto h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.texto-producto button {
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    background-color: #555D58;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+// CARDS LAS MEJORES MARCAS PARA VOS
+
+.marcas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.fondo-marcas-1 {
+    background-color: #2A2E2E;
+    width: 418px;
+    height: 375px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.fondo-marcas-2 {
+    background-color: #2A2E2E;
+    width: 418px;
+    height: 375px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.fondo-marcas-3 {
+    background-color: #2A2E2E;
+    width: 418px;
+    height: 375px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.logo-marcas {
+    position: absolute;
+    top: 100px;
+    left: 56px;
+}
+
+.marcas-producto {
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.marcas-link a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: #4E98EF;
+    padding-top: 12px;
+}
+
+// BOTON MARCAS
+
+.boton-marcas {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.boton-marcas a{
+    color: #4E98EF;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.boton-marcas button {
+    border: none;
+    border-radius: 10px;
+    background-color: #2A2E2E;
+    padding: 15px;
+}
